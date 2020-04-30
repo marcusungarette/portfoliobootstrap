@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Marcus Ungarette - Desenvolvedor Web</title>
+    <meta
+      name="description"
+      content="Desenvolvedor web em Campinas, Front-End, HTML, CSS, Javascript, React, GatsbyJS."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Marcus Ungarette - Desenvolvedor Web" />
+    <meta
+      property="og:description"
+      content="Desenvolvedor web em Campinas, Front-End, HTML, CSS, Javascript, React, GatsbyJS."
+    />
+    <meta property="og:url" content="https://devungarette.netlify.app" />
+    <meta
+      property="og:image"
+      content="https://devungarette.netlify.app/img/og-image.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900%7CSource+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#footer" class="nav__link">Contratar</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Sobre mim</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Portfólio</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Me chamo, <strong>Marcus<br />Ungarette</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Web-Developer</p>
+      <img
+        src="img/devone.png"
+        alt="a picture of Marcus Ungarette"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Stacks</h2>
+      <div class="services">
+        <div class="service">
+          <h3>React</h3>
+          <p>
+            Criada pelo Facebook e atualmente a biblioteca/framework de
+            Javascript mais popular do mundo.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>NodeJS</h3>
+          <p>
+            Combinando NodeJS e NoSQL ou MySQL database para a criação de CRUDs
+            e RESTful services.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>GatsbyJS</h3>
+          <p>
+            Sites estáticos que performam com GraphQL no carregamento e
+            otimização de imagens.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">Portfólio</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Sobre mim</h2>
+      <p class="section__subtitle section__subtitle--about">
+        From Campinas - SP
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Nascido em 1991 em Campinas-SP fiz Marketing e fui trabalhar no
+          comércio, fiz amigos, conheci e aprendi muito sobre negócios e
+          pessoas. Em 2017 fui me aventurar e morei um ano no Canadá, uma
+          experiência e tanto e de la voltei com o objetivo de me tornar
+          Desenvolvedor Web.
+        </p>
+        <p>
+          A cada novo desafio que enfrento nesse universo de tantas tecnologias
+          que precisamos aprender, saiu de cada um deles com a certeza de que
+          descobri a paixão que por anos busquei, sempre gostei de adquirir
+          conhecimento no novo, alguns amigos me chamam de Marcus Wikipédia, e a
+          web me oferece isso a cada projeto, "O novo", por assim dizer.
+        </p>
+      </div>
+
+      <img
+        src="img/devtwo.png"
+        alt="Marcus exploring the world"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Portfólio</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Clique nos projetos para saber mais
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="projeto-cervejaria.html" class="portfolio__item">
+          <img src="img/portfolio.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="projeto-marmoraria.html" class="portfolio__item">
+          <img src="img/portfolio2@2x.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="projeto-movegreen.html" class="portfolio__item">
+          <img src="img/portfolio3@2x.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="projeto-cirurgica.html" class="portfolio__item">
+          <img src="img/portfolio4@2x.png" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <a href="mailto:marcusungarette@gmail.com" class="footer__link"
+        >marcusungarette@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/marcus-vinicius-pret-ungarette-0174b323"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://wa.me/5519994980569"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i class="fab fa-whatsapp fa-2x"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/marcusungarette"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
